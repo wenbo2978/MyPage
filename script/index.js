@@ -1,14 +1,12 @@
-const homeInformation = {
-  img: 'my2.jpg',
-  name: 'Hi this is Wenbo, welcome to my page',
-  title: 'My Introduction',
-  content: 'My first time to publish my webpage on github. I will update more about me in this webpage.'
-};
+import { homeInformation, aboutMe, myProjects } from "../data/data.js";
 
-const aboutMe = {
-  title: 'About me',
-  content: 'Hi, I am a master student in StonyBrook University, marjor in Computer Engineering.'
-}
+addEventListener("load", function() {
+  setTimeout(hideURLbar, 0);
+}, false);
+
+function hideURLbar() {
+  window.scrollTo(0, 1);
+};
 
 
 const generateHome = () => {
@@ -30,5 +28,22 @@ const generateAbout = () => {
   sectionElement.innerHTML = html;
 };
 
+const generateMyWorks = () => {
+  const sectionElement = document.querySelector('.js-section-works');
+  sectionElement.innerHTML = `<h3 class="head-w3ls">${myProjects.title}</h3>
+    <div class="row news-grids text-center js-div-works">
+    
+    </div>`
+  const divElement = document.querySelector('.js-div-works');
+  let html = '';
+  myProjects.myWork.forEach((work)=>{
+    html += `<a href="${work.pageLink}" class="css-a"><img src="images/${work.img}" alt="news image" class="img-fluid css-img-work"></a>`;
+  });
+  divElement.innerHTML = html;
+  
+};
+
+
 generateHome();
 generateAbout();
+generateMyWorks();
