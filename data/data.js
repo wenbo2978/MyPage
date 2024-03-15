@@ -7,7 +7,7 @@ export const homeInformation = {
 
 export const aboutMe = {
   title: 'About me',
-  content: ''
+  content: 'Hi, I am a master student in StonyBrook University major in CE.'
 };
 
 export const myProjects = {
