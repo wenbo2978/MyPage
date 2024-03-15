@@ -17,7 +17,7 @@ export const myProjects = {
               img: 'imageProcessing.jpg'
             },
             {
-              pageLink: '/webProject.html',
+              pageLink: 'webProject.html',
               img: 'webDevelopment.jpg'
             },
             {
