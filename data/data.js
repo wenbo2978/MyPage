@@ -34,3 +34,11 @@ export const myProjects = {
             }
           ]
 };
+export const webProjects = [
+  {
+    name: "Amazon Shop",
+    img: "amazonProject.jpg",
+    pageLink: "https://wenbo2978.github.io/webDevelopment/amazonshop/amazon.html"
+  }
+];
+
