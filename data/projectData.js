@@ -14,25 +14,25 @@ export const projectList = [
   },
   {
     name: "StaffTrainingSystem",
-    img: "",
+    img: "projects/staffTrainingSystem.jpg",
     pageLink: "https://github.com/wenbo2978/StaffTrainingSystem",
     category: "webDevelopment"
   },
   {
     name: "NLP",
-    img: "",
-    pageLink: "https://github.com/wenbo2978/DeepLearning",
+    img: "projects/translate.svg.png",
+    pageLink: "https://github.com/wenbo2978/DeepLearning/tree/main/NLP",
     category: "DeepLearning"
   },
   {
     name: "PC Remote Controller",
-    img: "",
+    img: "projects/remoteControl.jpg",
     pageLink: "https://github.com/wenbo2978/AndroidDevelopment/tree/main/PCRemoteController",
     category: "Android Development"
   },
   {
     name: "Computer Vision Project",
-    img: "",
+    img: "projects/computerVision.png",
     pageLink: "",
     category: "Image Processing"
   }
