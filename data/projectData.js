@@ -3,7 +3,7 @@ export const projectList = [
   {
     name: "Airbnb clone",
     img: "projects/airbnb.jpg",
-    pageLink: "/page/airbnb.html",
+    pageLink: "page/airbnb.html",
     category: "webDevelopment"
   },
   {
