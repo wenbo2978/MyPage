@@ -1,6 +1,12 @@
 
 export const projectList = [
   {
+    name: "Airbnb clone",
+    img: "projects/airbnb.jpg",
+    pageLink: "/page/airbnb.html",
+    category: "webDevelopment"
+  },
+  {
     name: "Amazon Shop",
     img: "projects/amazonProject.jpg",
     pageLink: "https://wenbo2978.github.io/webDevelopment/amazonshop/amazon.html",
