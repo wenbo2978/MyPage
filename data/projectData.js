@@ -9,7 +9,7 @@ export const projectList = [
   {
     name: "Amazon Shop",
     img: "projects/amazonProject.jpg",
-    pageLink: "https://wenbo2978.github.io/webDevelopment/amazonshop/amazon.html",
+    pageLink: "page/amazonStore.html",
     category: "webDevelopment"
   },
   {
@@ -21,7 +21,7 @@ export const projectList = [
   {
     name: "StaffTrainingSystem",
     img: "projects/staffTrainingSystem.jpg",
-    pageLink: "https://github.com/wenbo2978/StaffTrainingSystem",
+    pageLink: "page/staffTrainingSystem.html",
     category: "webDevelopment"
   },
   {
