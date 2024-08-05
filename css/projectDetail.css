@@ -1,0 +1,36 @@
+
+
+.header{
+  width: 100%;
+  height: 40px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.basic-info{
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 50% 50%;
+  padding: 8px;
+  margin-top: 40px;
+}
+
+
+.pro-info{
+  overflow: auto;
+  padding-left: 30px;
+}
+
+.pro-demo{
+  padding: 10px;
+  overflow: auto;
+}
