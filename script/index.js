@@ -3,27 +3,28 @@ import { userInfo } from "../data/mainPageData.js";
 
 
 const generatePage = () => {
-  const sectionElement = document.querySelector('.main-div');
+  const sectionElement = document.querySelector('.main-box');
   console.log(sectionElement);
-  const html = `<div class="social-container-outer">
+  const html = `
+        <div class="social-container-outer">
             <img src="images/icon/icon-arrow-right-white.png" class="more-img">
             <div class="social-container-insider">
                 <ul>
-                    <li><img src="images/icon/email.png">wenbochen1997@gmail.com</li>
+                    <li><img src="images/icon/email.png"><a href="mailto:${userInfo.email}">${userInfo.email}</a></li>
                     <li><img src="images/icon/github.svg"><a href="${userInfo.gitLink}">github</a></li>
                     <li><img src="images/icon/linkedin.jpg"><a href="${userInfo.linkedin}">Linkedin</a></li>
                 </ul>
             </div>
         </div>
-        <div class="left-side-div">
-            <img class="user-img-profile" src="images/${userInfo.img}">
+        <div class="box box-left">
+            <img class="avatar" src="images/my2.jpg">
             <div>
-                <p class="intro-p">${userInfo.line1}</p>
-                <p class="intro-p">${userInfo.line2}</p>
-                <p class="intro-p">${userInfo.name}</p>
+                <p class="intro-p">Hi!</p>
+                <p class="intro-p">This is</p>
+                <p class="intro-p">Wenbo Chen</p>
             </div>
         </div>
-        <div class="right-side-div">
+        <div class="box box-right">
             <p class="content-title">SOFTWARE ENGINEER</p>
             <P class="content">${userInfo.skill}</P>
             
@@ -35,6 +36,7 @@ const generatePage = () => {
 };
 
 generatePage();
+
 
 document.getElementsByClassName('btn-more')[0].onclick = ()=>{
   window.location.href='Project.html';

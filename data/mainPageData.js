@@ -4,7 +4,7 @@ export const userInfo = {
   line2: "This is",
   name: "Wenbo Chen",
   title: "SOFTWARE ENGINEER",
-  skill: "Java • C++ • Python • C# • SQL • JavaScript • TypeScript • Springboot • React • Angular • Thymeleaf • CSS • Image Processing",
+  skill: "Java • C++ • Python • C# • SQL • JavaScript • TypeScript • Springboot • React • Angular • Express • Tailwind • Thymeleaf • CSS • Image Processing",
   emailIcon: "icon/email.png",
   email: "wenbochen1997@gmail.com",
   gitIcon: "icon/github.svg",
