@@ -2,7 +2,7 @@
 export const projectList = [
   {
     name: "Sahand Estate",
-    img: "projects/airbnb.jpg",
+    img: "projects/sahandEstate.jpg",
     pageLink: "page/sahandEstate.html",
     category: "webDevelopment"
   },
