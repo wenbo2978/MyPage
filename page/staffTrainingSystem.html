@@ -6,63 +6,59 @@
   <body>
     
     <div class="header">
-      <h2>StaffTrainingSystem</h2>
+      <a href="/Project.html">My Project</a>
     </div>
     <div class="main-div">
-      <div class="basic-info">
-        <div class="pro-info">
-          <h2>Info of Project</h2>
+      <div class="div-title">
+        <h2>StaffTrainingSystem</h2>
+      </div>
+      <div class="pro-info">
+        <h2>Info of Project</h2>
+        <ul>
+          <li>
+            Developed an interactive, web-based training platform. The platform allows administrators to manage user information, trainers to publish and review tasks, and staff to complete tasks.
+          </li>
+          <li>
+            Front-end: Implemented using JavaScript and jQuery, with AJAX for backend communication. Utilized Thymeleaf for dynamic data rendering in HTML pages.
+          </li>
+          <li>
+            Back-end: Built with Java and the Spring Boot framework.Employed MyBatis for MySQL database interactions.Conducted unit testing to ensure functionality and reliability.
+          </li>
+        </ul>
+        <div class="more">
+          <lable>
+            <span>code repository:</span>
+            <a target="_blank" href="https://github.com/wenbo2978/StaffTrainingSystem">https://github.com/wenbo2978/StaffTrainingSystem</a>
+          </lable>
+          <p>Technique: SpringBoot + MyBatis + MySQL + Thymeleaf</p>
+          <p>Develop Tool: Intellij IDEA, MYSQL Workbench</p>
+        </div>
+        <h2>Main Function</h2>
+        <div>
+          <p>Administrator</p>
           <ul>
-            <li>
-              Developed an interactive, web-based training platform. The platform allows administrators to manage user information, trainers to publish and review tasks, and staff to complete tasks.
-            </li>
-            <li>
-              Front-end: Implemented using JavaScript and jQuery, with AJAX for backend communication. Utilized Thymeleaf for dynamic data rendering in HTML pages.
-            </li>
-            <li>
-              Back-end: Built with Java and the Spring Boot framework.Employed MyBatis for MySQL database interactions.Conducted unit testing to ensure functionality and reliability.
-            </li>
+            <li>Manager users account: include create, edit and delete.</li>
           </ul>
-          <p>Technique: springboot + myBatis + mySQL + thymeleaf</p>
-          <p>Develop Tool: Intellij IDEA</p>
-          <h2>Main Function</h2>
-          <di>
-            <p>Administrator</p>
-            <ul>
-              <li>Manager users account</li>
-            </ul>
-          </di>
-          <di>
-            <p>Trainer</p>
-            <ul>
-              <li>Add, delete, update task</li>
-              <li>Add, delete, update essay and multiple choice to task</li>
-              <li>Check tasks processing</li>
-              <li>Evaluate tasks</li>
-              <li>Sort staff by score</li>
-            </ul>
-          </di>
-          <di>
-            <p>Staff</p>
-            <ul>
-              <li>Finish tasks</li>
-              <li>Make feedback</li>
-            </ul>
-          </di>
         </div>
-        <div class="pro-demo">
-          <div>
-            <lable>
-              <span>code repository:</span>
-              <a target="_blank" href="https://github.com/wenbo2978/StaffTrainingSystem">https://github.com/wenbo2978/StaffTrainingSystem</a>
-            </lable>
-            
-          </div>
-          <div>
-            <p>Deom Video</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/S166t0a3YyQ?si=zCYEY2NOpHaweuxV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
+        <div>
+          <p>Trainer</p>
+          <ul>
+            <li>Task: trainner can create task, edit and delete it. But when the trainner publish the task, any operation will be denied. And it will appear into staff's page.</li>
+            <li>Content of task: trainner can add multiple choice and essay for the existed task, edit and delete is also avaliable before the task is published.</li>
+            <li>Check processing: trainner can know the process of each staff.</li>
+            <li>Evaluate tasks: trainner need to grade tasks for each staff, include essay and multiple choice.</li>
+            <li>Sort: trainner could sort staff by socre, it could be the total socre or the score from one task.</li>
+          </ul>
         </div>
+        <div>
+          <p>Staff</p>
+          <ul>
+            <li>Finish tasks: staff should finish task before deadline. They can do many times before they submit the taks, and any process will be saved.</li>
+            <li>Make feedback: staff could make feedback for each evaluation. And according to the feedback, trainner may grade again.</li>
+          </ul>
+        </div>
+        <h2>Deom Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S166t0a3YyQ?si=zCYEY2NOpHaweuxV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       
     </div>
