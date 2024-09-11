@@ -39,7 +39,7 @@ generatePage();
 
 
 document.getElementsByClassName('btn-more')[0].onclick = ()=>{
-  window.location.href='Project.html';
+  window.location.href='page/Project.html';
 }
 
 

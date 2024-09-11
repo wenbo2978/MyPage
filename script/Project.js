@@ -8,7 +8,7 @@ const loadProjects = ()=> {
                 <a href="${Project.pageLink}">
                   <img
                     class="card-image"
-                    src="images/${Project.img}"
+                    src="../images/${Project.img}"
                     alt="profile picture"></img>
                 </a>
                 
