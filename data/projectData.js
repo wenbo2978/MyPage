@@ -13,6 +13,12 @@ export const projectList = [
     category: "webDevelopment"
   },
   {
+    name: "StaffTrainingSystem",
+    img: "projects/staffTrainingSystem.jpg",
+    pageLink: "staffTrainingSystem.html",
+    category: "webDevelopment"
+  },
+  {
     name: "Amazon Shop",
     img: "projects/amazonProject.jpg",
     pageLink: "amazonStore.html",
@@ -22,12 +28,6 @@ export const projectList = [
     name: "YouTube Clone",
     img: "projects/YouTube.jpg",
     pageLink: "https://wenbo2978.github.io/webDevelopment/YouTube-Clone",
-    category: "webDevelopment"
-  },
-  {
-    name: "StaffTrainingSystem",
-    img: "projects/staffTrainingSystem.jpg",
-    pageLink: "staffTrainingSystem.html",
     category: "webDevelopment"
   },
   {
