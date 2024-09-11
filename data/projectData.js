@@ -3,19 +3,19 @@ export const projectList = [
   {
     name: "Sahand Estate",
     img: "projects/sahandEstate.jpg",
-    pageLink: "/page/sahandEstate.html",
+    pageLink: "sahandEstate.html",
     category: "webDevelopment"
   },
   {
     name: "Airbnb clone",
     img: "projects/airbnb.jpg",
-    pageLink: "/page/airbnb.html",
+    pageLink: "airbnb.html",
     category: "webDevelopment"
   },
   {
     name: "Amazon Shop",
     img: "projects/amazonProject.jpg",
-    pageLink: "/page/amazonStore.html",
+    pageLink: "amazonStore.html",
     category: "webDevelopment"
   },
   {
@@ -27,7 +27,7 @@ export const projectList = [
   {
     name: "StaffTrainingSystem",
     img: "projects/staffTrainingSystem.jpg",
-    pageLink: "/page/staffTrainingSystem.html",
+    pageLink: "staffTrainingSystem.html",
     category: "webDevelopment"
   },
   {
